@@ -127,7 +127,9 @@ public class TestClass {
 			    driver.switchTo().window(Address);
 			    Wait.seconds(10);
 			    driver.findElement(By.xpath("//tr[5]/td[2]/a")).click();
+			    Wait.seconds(10);
 			    driver.manage().window().maximize();
+			    Wait.seconds(10);
 	    	driver.switchTo().window(ContentWin);
 	    	driver.switchTo().frame("MainWin");
 	    	driver.switchTo().frame("ContentWin");

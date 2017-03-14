@@ -114,7 +114,6 @@ public class TestClass2 {
 		    driver.findElement(By.id("Search6Select")).click();
 		    driver.findElement(By.xpath("(//input[@name='Search6Select[]'])[1]")).click();
 	 
-
 	 
 		    
 		    //Category Start ne raboti
