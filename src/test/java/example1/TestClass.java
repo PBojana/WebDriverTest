@@ -62,10 +62,10 @@ public class TestClass {
 	    	for (String handle : driver.getWindowHandles()) {
 	    		driver.switchTo().window(handle);
 	    	}
-
+	    	driver.manage().window().maximize();
 	    	driver.switchTo().frame("MainWin");
 	    	Wait.seconds(10);
-	    	 driver.manage().window().maximize();
+	    	 
 	    	driver.findElement(By.xpath("//tr[25]/td[6]/a")).click();
 	    	String ContentWin = driver.getWindowHandle();
 	    	driver.switchTo().frame("TreeWin");
@@ -126,8 +126,8 @@ public class TestClass {
 			    }
 			    driver.switchTo().window(Address);
 			    Wait.seconds(10);
-			    driver.manage().window().maximize();
 			    driver.findElement(By.xpath("//tr[5]/td[2]/a")).click();
+			    driver.manage().window().maximize();
 	    	driver.switchTo().window(ContentWin);
 	    	driver.switchTo().frame("MainWin");
 	    	driver.switchTo().frame("ContentWin");

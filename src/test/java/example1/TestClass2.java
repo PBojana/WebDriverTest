@@ -63,7 +63,7 @@ public class TestClass2 {
 		    Wait.seconds(2);
 		    driver.findElement(By.name("Search1")).clear();
 		    
-		     
+		     System.out.println("Test 2 test 2");
 		   //Search by Risk Control Professional Start
 		    
 		    driver.findElement(By.id("Search2Select")).click();
@@ -113,57 +113,9 @@ public class TestClass2 {
 		    Wait.seconds(10);
 		    driver.findElement(By.id("Search6Select")).click();
 		    driver.findElement(By.xpath("(//input[@name='Search6Select[]'])[1]")).click();
-		    //Status End
+	 
 
-		    //Client/Insured Start
-		    driver.findElement(By.name("Search7")).click();
-		    driver.findElement(By.name("Search7")).sendKeys("26");
-		    driver.findElement(By.linkText("Search")).click();
-		    driver.findElement(By.name("Search7")).clear();
- 
-		    driver.findElement(By.name("Search7")).sendKeys("&");
-		    driver.findElement(By.linkText("Search")).click();
-		    driver.findElement(By.name("Search7")).clear();
-		    //Client/Insured End
-
-		    //Search by Complete By - Start
-	    	driver.findElement(By.name("Search8")).sendKeys("2020/01/17");
-	    	driver.findElement(By.name("Search8")).click();
-	    	driver.findElement(By.name("Search8To")).sendKeys("2040/01/17");
-	    	driver.findElement(By.name("Search8To")).click();
-	    	driver.findElement(By.linkText("Search")).click();
-	    	Wait.seconds(10);
-		    driver.findElement(By.name("Search8")).clear();
-		    driver.findElement(By.name("Search8To")).clear(); 
-
-	    	//Search by Complete By - End
-
-		    //Search by Date Completed - Start
-	    	driver.findElement(By.name("Search9")).sendKeys("2020/01/17");
-	    	driver.findElement(By.name("Search9")).click();
-	    	driver.findElement(By.name("Search9To")).sendKeys("2040/01/17");
-	    	driver.findElement(By.name("Search9To")).click();
-	    	driver.findElement(By.linkText("Search")).click();
-		  //  driver.findElement(By.name("Search9")).clear();
-		//    driver.findElement(By.name("Search9To")).clear();
-	    	//Search by Date Completed- End
-
-		  // Section- Start
-		    driver.findElement(By.name("Search10")).sendKeys("section");
-		    driver.findElement(By.linkText("Search")).click();
-		  //  driver.findElement(By.name("Search10")).clear();
-		 //Section End
-		 // Recommendation- Start
-	 	    driver.findElement(By.name("Search11")).sendKeys("test");
-		    driver.findElement(By.linkText("Search")).click();
-		    driver.findElement(By.name("Search11")).clear();
-		 // Recommendation End
-
-		   // Recommendation Title- Start
-		    driver.findElement(By.name("Search12")).sendKeys("test 1");
-		    driver.findElement(By.linkText("Search")).click();
-		    driver.findElement(By.name("Search12")).clear();
-		 // Recommendation Title-End
+	 
 		    
 		    //Category Start ne raboti
  		    /* driver.findElement(By.id("Search13DropDown")).click();
