@@ -1,7 +1,7 @@
 package example1;
 
  
-
+import org.openqa.selenium.Dimension;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
@@ -39,6 +39,9 @@ public class TestClass {
 	    @Test
 	public void test() { 
 	    	WebDriver driver = new FirefoxDriver();
+	    	 
+	             driver.manage().window().maximize();
+	        
 	    	driver.get("http://test.inspectionhost.com/rcibase4.5.4dev/Portal.bsd");
 
 
