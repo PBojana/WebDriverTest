@@ -126,14 +126,14 @@ public class TestClass {
 			    }
 			    driver.switchTo().window(Address);
 			    Wait.seconds(10);
-			    driver.findElement(By.xpath("//tr[5]/td[2]/a")).click();
+			 driver.findElement(By.xpath("//tr[4]/td[2]/a")).click();
 			    Wait.seconds(10);
-			    driver.manage().window().maximize();
-			    Wait.seconds(10);
-	    	driver.switchTo().window(ContentWin);
+			   
+			driver.switchTo().window(ContentWin);
 	    	driver.switchTo().frame("MainWin");
 	    	driver.switchTo().frame("ContentWin");
 			Wait.seconds(5);
+			//// driver.manage().window().maximize();
 			driver.findElement(By.linkText("New")).click();
 			String AddLocation = null;
 	    	Set<String> handles2 = driver.getWindowHandles(); // get all window handles
