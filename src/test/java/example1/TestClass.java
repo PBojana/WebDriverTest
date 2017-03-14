@@ -64,7 +64,8 @@ public class TestClass {
 	    	}
 
 	    	driver.switchTo().frame("MainWin");
-	    	Wait.seconds(5);
+	    	Wait.seconds(10);
+	    	 driver.manage().window().maximize();
 	    	driver.findElement(By.xpath("//tr[25]/td[6]/a")).click();
 	    	String ContentWin = driver.getWindowHandle();
 	    	driver.switchTo().frame("TreeWin");
