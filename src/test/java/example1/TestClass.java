@@ -141,6 +141,7 @@ public class TestClass {
 			    driver.switchTo().window(AddLocation);
 			    driver.switchTo().frame("MainWin");
 			    Wait.seconds(10);
+			    driver.manage().window().maximize();
 			driver.findElement(By.id("LocationDescription"));
 			driver.findElement(By.linkText("Exit")).click();
 			driver.switchTo().window(ContentWin);
