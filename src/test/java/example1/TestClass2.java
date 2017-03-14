@@ -25,6 +25,7 @@ public class TestClass2 {
 	    @Test
 		public void test() {
 	    	 WebDriver driver = new FirefoxDriver();
+	    	 driver.manage().window().maximize();
 		    driver.get("http://test.inspectionhost.com/Base4.5.4QA/Portal.bsd");
 		    driver.switchTo().frame("MainWin");
 		    driver.findElement(By.id("UserName")).clear();
