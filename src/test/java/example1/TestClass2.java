@@ -60,7 +60,7 @@ public class TestClass2 {
 		    //Search by Policy No.
 		    driver.findElement(By.name("Search1")).sendKeys("231");
 		    driver.findElement(By.linkText("Search")).click();
-		    Wait.seconds(2);
+		    Wait.seconds(5);
 		    driver.findElement(By.name("Search1")).clear();
 		    
 		     System.out.println("Test 2 test 2");

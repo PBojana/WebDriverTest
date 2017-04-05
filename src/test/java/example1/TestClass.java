@@ -126,6 +126,7 @@ public class TestClass {
 			    }
 			    driver.switchTo().window(Address);
 			    Wait.seconds(10);
+			    driver.manage().window().maximize();
 			 driver.findElement(By.xpath("//tr[4]/td[2]/a")).click();
 			    Wait.seconds(10);
 			   
@@ -144,7 +145,7 @@ public class TestClass {
 			    driver.switchTo().window(AddLocation);
 			    driver.switchTo().frame("MainWin");
 			    Wait.seconds(10);
-			    driver.manage().window().maximize();
+			   
 			driver.findElement(By.id("LocationDescription"));
 			driver.findElement(By.linkText("Exit")).click();
 			driver.switchTo().window(ContentWin);
