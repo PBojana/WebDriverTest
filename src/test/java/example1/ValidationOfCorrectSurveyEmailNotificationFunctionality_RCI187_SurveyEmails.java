@@ -1,17 +1,10 @@
 package example1;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.AssertJUnit.assertTrue;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.util.List;
-import java.util.Properties;
-
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -26,7 +19,7 @@ public class ValidationOfCorrectSurveyEmailNotificationFunctionality_RCI187_Surv
 	@SuppressWarnings("unused")
 	private StringBuffer verificationErrors = new StringBuffer();
 	 
-	@Before
+	@BeforeMethod
 	public void setUp() throws Exception {
 		notification="test@test.com";
 	}

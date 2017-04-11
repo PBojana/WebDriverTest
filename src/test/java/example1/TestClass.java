@@ -1,20 +1,12 @@
 package example1;
 
  
-import org.openqa.selenium.Dimension;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
-import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertTrue;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -27,7 +19,8 @@ public class TestClass {
 	    @SuppressWarnings("unused")
 		private StringBuffer verificationErrors = new StringBuffer();
 
-	    @BeforeMethod
+	  
+		@BeforeMethod
 	
 		public void setUp() throws Exception {
 

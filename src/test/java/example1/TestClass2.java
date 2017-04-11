@@ -3,6 +3,8 @@ package example1;
  
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,7 +18,7 @@ public class TestClass2 {
 	    @SuppressWarnings("unused")
 		private StringBuffer verificationErrors = new StringBuffer();
 	 
-	    @BeforeMethod
+		@BeforeMethod
 		public void setUp() throws Exception {
 	    	
 	   baseUrl ="http://test.inspectionhost.com/Base4.5.4/Portal.bsd";
@@ -123,7 +125,7 @@ public class TestClass2 {
 		    
 		    WebDriverWait wait = new WebDriverWait(driver,30);
 		    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='Search13DropDown[]'])[1]")));      
-		   */ //Category End
+		    //Category End
 		    driver.findElement(By.linkText("Reset")).click();
 		    // Sort
 		    driver.findElement(By.linkText("Ref #")).click();
@@ -174,7 +176,8 @@ public class TestClass2 {
 		    Wait.seconds(5);
 		    driver.findElement(By.linkText("Category")).click();
 		    Wait.seconds(5);
-		    driver.findElement(By.linkText("Category")).click();
+		    driver.findElement(By.linkText("Category")).click();*/
+		    
 		    System.out.println("Stigna do kraj vtora ");
 	    }
 }
