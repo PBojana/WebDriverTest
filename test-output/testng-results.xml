@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="246951" started-at="2017-04-05T15:38:08Z" finished-at="2017-04-05T15:42:15Z">
+  <suite name="Default suite" duration-ms="5" started-at="2017-04-11T09:19:06Z" finished-at="2017-04-11T09:19:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="246951" started-at="2017-04-05T15:38:08Z" finished-at="2017-04-05T15:42:15Z">
-      <class name="example1.TestClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:example1.TestClass@2a5ca609]" name="setUp" is-config="true" duration-ms="68" started-at="2017-04-05T17:38:08Z" finished-at="2017-04-05T17:38:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:example1.TestClass@2a5ca609]" name="test" duration-ms="246663" started-at="2017-04-05T17:38:08Z" finished-at="2017-04-05T17:42:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- example1.TestClass -->
+    <test name="Default test" duration-ms="5" started-at="2017-04-11T09:19:06Z" finished-at="2017-04-11T09:19:06Z">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
