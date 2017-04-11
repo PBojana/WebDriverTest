@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="example1.TestClass2">
+      <class name="example1.ValidationOfCorrectSurveyEmailNotificationFunctionality_RCI187_SurveyEmails">
         <methods>
-          <include name="test"/>
           <include name="setUp"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- example1.TestClass2 -->
+      </class> <!-- example1.ValidationOfCorrectSurveyEmailNotificationFunctionality_RCI187_SurveyEmails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

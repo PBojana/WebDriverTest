@@ -4,8 +4,8 @@
   <test name="Test">
     <classes>
       <class name="example1.TestClass2"/>
-      <class name="example1.ValidationOfCorrectSurveyEmailNotificationFunctionality_RCI187_SurveyEmails"/>
       <class name="example1.TestClass"/>
+      <class name="example1.TestClas3"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

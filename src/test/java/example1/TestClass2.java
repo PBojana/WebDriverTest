@@ -3,8 +3,6 @@ package example1;
  
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -68,7 +66,7 @@ public class TestClass2 {
 		     System.out.println("Test 2 test 2");
 		   //Search by Risk Control Professional Start
 		    
-		    driver.findElement(By.id("Search2Select")).click();
+		  /*  driver.findElement(By.id("Search2Select")).click();
 		    driver.findElement(By.xpath("(//input[@name='Search2Select[]'])[7]")).click();
 		    driver.findElement(By.xpath("(//input[@name='Search2Select[]'])[8]")).click();
 		    driver.findElement(By.xpath("(//input[@name='Search2Select[]'])[9]")).click();
@@ -115,7 +113,7 @@ public class TestClass2 {
 		    Wait.seconds(10);
 		    driver.findElement(By.id("Search6Select")).click();
 		    driver.findElement(By.xpath("(//input[@name='Search6Select[]'])[1]")).click();
-	 
+	 */
 	 
 		    
 		    //Category Start ne raboti
